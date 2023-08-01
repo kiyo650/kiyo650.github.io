@@ -1,0 +1,39 @@
+/* 背景写真 */
+body{
+    background-image:url("ワニ.png");
+    background-size:cover
+}
+
+/* 背景色 */
+.parent {
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+}
+/* ワニの数 */
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+/* ボタン */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
